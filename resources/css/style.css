@@ -8,5 +8,39 @@ body {
     background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+}
 
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* universal css */
+
+h1{
+    margin: 0;
+}
+
+/* header css */
+
+
+.princess-text-box span{
+    font-weight: 300;
+    font-size: 28px;
+}
+
+header{
+    padding-top: 315px;
+    padding-left: 518px;
+    padding-right: 10px;
+
+
+    color: rgb(54, 64, 84);
+
+    background-repeat: repeat-x;
+    
+    background-image: url(img/bg.jpg);
+    background-size: 100%;
+    background-position-x: -250px;
+    height: 100vh;
 }
