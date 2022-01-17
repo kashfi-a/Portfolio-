@@ -52,7 +52,15 @@ header{
     color: white;
     text-decoration: none;
     border: 1px solid white;
+    border-radius: 5px;
     padding: 10px 20px;
     display: inline-block;
     margin-top: 15px;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: white;
+    transition: .2s;
+    border-radius: 50px;
 }
