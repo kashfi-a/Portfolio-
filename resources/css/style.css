@@ -25,12 +25,15 @@ h1{
 
 
 .hero-text-box{
-    font-weight: 300;
-    font-size: 28px;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     position: absolute;
+}
+
+.hero-text-box span{
+    font-weight: 300;
+    font-size: 28px;
 }
 
 header{
@@ -43,4 +46,13 @@ header{
     background-size: cover;
     background-position: absolute;
     height: 100vh;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
 }
