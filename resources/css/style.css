@@ -1,54 +1,50 @@
-* {
+/* basic css */
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
-.row{
-    width: 1140px;
-    margin: 0 auto;
-}
+
 
 /* universal css */
-
-h1{
+h1 {
     margin: 0;
 }
 
+
+
 /* header css */
-
-
-.hero-text-box{
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-}
-
-.hero-text-box span{
-    font-weight: 300;
-    font-size: 28px;
-}
-
-header{
-
-    color: white;
-
-    background-repeat: repeat-x;
-    
-    background-image: url(img/gifbg.gif);
+header {  
+    background-image: url(img/bg.gif);
+    background-position: center;
     background-size: cover;
-    background-position: absolute;
     height: 100vh;
 }
 
-.btn{
+.hero-text-box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+    text-transform: uppercase;
+}
+
+.hero-text-box span {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.btn {
     color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -58,9 +54,8 @@ header{
     margin-top: 15px;
 }
 
-.btn:hover{
-    color: blue;
+.btn:hover {
+    color: black;
     background-color: white;
     transition: .2s;
-    border-radius: 50px;
 }
