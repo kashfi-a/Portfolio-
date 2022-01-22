@@ -27,6 +27,21 @@ header {
     height: 100vh;
 }
 
+nav img {
+    width: 100px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 20px;
+}
+
 .hero-text-box {
     color: white;
     position: absolute;
